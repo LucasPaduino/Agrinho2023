@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trabalho voluntário</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                   <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+                </label>
+               <img src="img/Logo Lar.svg" alt="Logo Lar São Vicente de Paula" class="container__imagem">
+               <h1 class="container__titulo"> <b class="container__titulo--negrito">Trabalho</b>Voluntário</h1>
+            </div>
+
+            <ul class="opçoes">
+                <input type="checkbox" id="opçoes-menu" class="opçoes__botao">
+                <label for="opçoes-menu">
+                    <li class="opçoes__item">Categorias</li>
+                </label>
+
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Faça parte você também</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Doação</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Infraestrutura</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Faça o bem para o próximo e à si mesmo</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Lar São Vicente de Paulo</a>
+                    </li>
+                    
+                </ul>
+
+                <li class="opçoes__item"><a href="#" class="opçoes__link">Duvida</a></li>
+                <li class="opçoes__item"><a href="#" class="opçoes__link">Faça parte</a></li>
+            </ul>
+
+            <div class="container">
+               <a href="#"><img src="img/duvida.png" alt="Duvidas" class="container__imagem container__imagem-transparente"></a>
+               <a href="#"><img src="img/AJude.png" alt="Ajude" class="container__imagem"></a>
+               <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+            </div>
+        </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+            <p class="banner__texto">Encontre o que precisa para seu desenvolvimento!</p>
+            <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima jornada?">
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Imagens do Lar São Vicente de Paulo</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                  <!-- If we need pagination -->
+                  <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/lar 1.jpeg" alt="Livro sobre Apache Kalifa e boot da Alura Books"></div>
+                    <div class="swiper-slide"><img src="img/lar 2.jpeg" alt="Livro sobre liderança em designer da Alura Books"></div>
+                    <div class="swiper-slide"><img src="img/lar 3.jpeg" alt="Livro sobre Javascript assertivo da Alura Books"></div>
+                 
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>             
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descriçao">
+                    <!-- 1º coluna -->
+                    <div class="descriçao">
+                        <h3 class="descriçao__titulo">Trabalho voluntário</h3>
+                        <h2 class="descriçao__titulo-livro">William José</h2>
+                        <p class="descriçao__texto">Esse é william José Gonçalves de 37 anos, professor e presidente do Lar São vicente de Paulo, onde faz um trabalho em excelente, sendo voluntário.</p>
+                        
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="img/professor.jpeg" class="descriçao__imagem" alt="">
+                </div>
+
+                <!-- 2º linha-->
+                <div class="cards__botões">
+                    <!-- 2º coluna--> 
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+<section class=”carrossel”>
+    <div class="card">
+        <!-- 1º linha -->
+        <div class="card__descriçao">
+            <!-- 1º coluna -->
+            <div class="descriçao">
+                <h3 class="descriçao__titulo">Trabalho voluntário</h3>
+                <h2 class="descriçao__titulo-livro">O que é?</h2>
+                <p class="descriçao__texto">O trabalho voluntário é um ato nobre e altruísta que envolve dedicar tempo, habilidades e energia para ajudar os outros e contribuir para o bem-estar da comunidade. Ele não é motivado por ganhos financeiros, mas sim pelo desejo sincero de fazer a diferença na vida das pessoas e causas que necessitam de apoio.
+                </p>
+            </div>
+            <!-- 2º coluna -->
+            <img src="img/trabalho-voluntario-na-africa-do-sul-roda-mundo-intercambio-.jpg" class="descrição__imagem">
+        </div>
+
+        <!-- 2º linha -->
+        <div class="cards__botões">
+            <!-- 2º coluna -->
+            <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+    </div>
+</section>
+
+<section class="topicos">
+    <h2 class="topicos__titulo">O trabalho voluntário não apenas beneficia aqueles que são ajudados, mas também enriquece a vida do voluntário. Ele promove empatia, resiliência e a capacidade de trabalhar em equipe, ao mesmo tempo em que desafia as perspectivas individuais e estimula o crescimento pessoal. Através do voluntariado, podemos demonstrar o poder transformador do cuidado mútuo e inspirar os outros a se juntarem a nós nessa jornada de impacto positivo.</h2>
+</section>
+
+<section class="contato">
+    <h2 class="contato__titulo">Na doação desinteressada do tempo e talento, o trabalho voluntário constrói pontes para um mundo mais solidário.</h2>
+    <p class="contato__texto">O trabalho voluntário é a expressão mais genuína do amor e compaixão pela humanidade.</p>
+    <input type="email" placeholder="Cadastre seu email" class="contato__email">
+</section>
+
+<hr/>
+ <footer class="rodape">
+    <h2 class="rodape__titulo">Por Lucas Paduino e professor William Gonçalves</h2>  
+ </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+                });
+        </script>
+    
+    </body>
+</html>
